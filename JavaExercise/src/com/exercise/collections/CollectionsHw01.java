@@ -1,6 +1,7 @@
 package com.exercise.collections;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 /*
 1)封装一个新闻类，包含标题和内容属性，提供,get,set 方法，重写toString 方法，打印对象时只打印标题
@@ -13,6 +14,8 @@ import java.util.ArrayList;
  */
 public class CollectionsHw01 {
     public static void main(String[] args) {
+
+
         ArrayList arraylist=new ArrayList();
         arraylist.add(new News("新冠确诊病例超千万，数百万印度教信徒赴恒河\"圣浴\"引起民众担忧"));
         arraylist.add(new News("男子突然想起2个月前钓的鱼还在网兜里，捞起一看赶紧放生"));
